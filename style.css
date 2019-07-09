@@ -1,0 +1,335 @@
+.content {
+    padding-top: 180px;
+}
+
+.head {  
+   padding-bottom: 120px;
+   
+}
+
+.card {
+    height: 800px;
+}
+
+.primary-overlay {
+    background-image: url(img/card-background1.jpg);
+    background-repeat: no-repeat;
+  background-size: 1500px 1000px;
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+    color: #f56b1b;
+    
+}
+
+.page-footer {
+   margin-top: 150px;
+}
+
+/*section index*/
+
+
+.section-index .card-background{
+    background-image: url(img/card-background.jpg)
+}
+
+.section-index .modal-objective {
+    background-image: url(img/modal1.jpg);
+      background-size: 800px 500px;
+  
+  
+  }
+
+.section-index .modal-education {
+  background-image: url(img/modal1.jpg);
+    background-size: 800px 500px;
+
+
+}
+
+.section-index .card-index {
+    height: 1000px;
+}
+
+.section-index .modal-googlemap {
+    background-image: url(img/modal1.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 700px; 
+}
+
+
+/*Training Work Content*/
+
+
+
+.work-training .carousel-item {
+    width: 1300px;
+    height: 1300px;
+
+}
+
+.work-training .card-training{
+    height: 70px;
+}
+
+.work-training .card-content {
+   
+    padding: 0!important;
+   
+}
+
+
+.work-training .carousel .carousel-item {
+   
+    height: 250px;
+    widtH: 250px;
+ 
+  
+}
+
+.work-training .carousel .carousel-item:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0;
+    transition: height 0.1s ease-out;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+}
+
+ 
+.work-training .carousel .carousel-item:hover:before {
+    height: 100%;
+    margin-top: 50px; 
+}
+
+
+.work-training .text{
+	width:300px;
+	height:100px;
+    margin-top: -100px;
+    margin-left: -20px;
+    opacity:0;
+}
+
+.work-training .carousel .carousel-item:hover .text {
+    opacity:0.6;
+	text-align:justify;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+	
+}
+
+
+/*Training Carousel Modal*/
+
+.section-modal .modal-content {
+    background-image: url(img/modal1.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 700px;
+}
+
+.section-modal .carousel-modal .carousel-item {
+    margin-top: -50px;
+    height: 250px;
+    widtH: 250px;
+}
+
+.section-modal .modal-paragraph {
+    margin-top: -150px;
+ 
+   
+}
+
+.section-modal .primary-overlay {
+    background: rgba(63, 57, 77, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/*Work Exprience Card*/
+
+.work-training .card-paragraph {
+  padding-top: 100px;
+  z-index: 100;
+}
+
+
+.section-modal .card-cs6 {
+    background-image: url(img/cs6photo.jpg);
+    background-size: 400px 400px;
+    height: 252px;
+   
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: 0;
+ 
+ 
+}
+
+
+.work-training .card-exp {
+    background-image: url(img/way.jpg);
+    height: 352px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+/* .work-training .card-overlay::after {
+    position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+
+  background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+  /* background-color: rgba(234, 241, 233, 0.5); */
+
+
+
+
+
+
+
+.work-training .exp-background {
+    background-image: url(img/lexmark.jpg);
+    background-size: 1000px 500px;
+    background-repeat: no-repeat;
+    max-width:100%;
+    height: auto;
+    padding-top: 330px;
+    background-color: rgba(0, 0, 0, 0.541);
+    /* opacity: 0.5;
+    filter: alpha(opacity=50); */
+}
+
+.work-training .exp-paragraph {
+    text-align: center
+}
+
+/* .work-training .container-paragraph {
+    height: 10em;
+    position: relative
+} */
+
+.work-training .container-paragraph .exp-paragraph {
+    margin: 0;
+    color: black;
+    position: absolute;
+    bottom: 200%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+ 
+}
+
+.work-training .parallax-container {
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.work-training .parallax-container .parallax {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.work-training .btn-text {
+    margin-top: -300px;
+}
+
+/*css skills content*/
+
+
+.section-skills .card-content {
+    margin-top: 70px;
+    padding: 0!important;
+   
+}
+
+.section-skills .mySlides {
+    width: 100%;
+}
+
+.section-skills .card-skills {
+    /* margin: 0!important;
+    padding: 0!important;
+    border: 0!important; */
+  
+   
+}
+
+.section-skills .card-image {
+    margin-top: -16px;
+    position: relative;
+}
+
+.section-skills .slide-image{
+    max-width:1000px;
+   height: 400px;
+}
+
+.section-skills p { 
+    position: absolute; 
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+    color: black
+ }
+
+ /*Preloader*/
+ .loader {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader > img {
+    width: 100px;
+}
+
+.loader.hidden {
+    animation: fadeOut 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.thumb {
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.brand-logo {
+    font-family: 'Open Sans', sans-serif;
+}
